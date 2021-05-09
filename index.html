@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <h4>Inspired by <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life</a></h4>
+    <div class="container" >
+        <div class="pattern-wrapper">
+            <div class="pattern-info">Blinker <br>(period 2)</div>
+            <div class="pattern-holder" id="blinker"></div>
+        </div>
+        <div class="pattern-wrapper">
+            <div class="pattern-info">Toad <br>(period 2)</div>
+            <div class="pattern-holder" id="toad"></div>
+        </div>
+        <div class="pattern-wrapper">
+            <div class="pattern-info">Beacon <br>(period 2)</div>
+            <div class="pattern-holder" id="beacon"></div>
+        </div>
+        <div class="pattern-wrapper">
+            <div class="pattern-info">Pulsar <br>(period 3)</div>
+            <div class="pattern-holder" id="pulsar"></div>
+        </div>
+        <div class="pattern-wrapper">
+            <div class="pattern-info">Penta-decathlon <br>(period 15)</div>
+            <div class="pattern-holder" id="decathlon"></div>
+        </div>
+    </div>
+
+    <script defer src="./cellsMatrix.js"></script>
+    <script defer src="./cellsBuilder.js"></script>
+    <script defer src="./gameOfLife.js"></script>
+</body>
+</html>
